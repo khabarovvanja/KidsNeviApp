@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Courses project</string>
+    <string name="Hint">Введите текст</string>
+    <string name="Detected">Распознать</string>
+</resources>
