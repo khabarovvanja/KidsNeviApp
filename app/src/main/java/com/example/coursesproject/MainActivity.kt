@@ -46,23 +46,9 @@ class MainActivity : AppCompatActivity() {
 
             var myList = floatArrayOf(1.0f, 1.0f, 1.0f, 2.0f, 2.0f, 2.0f, 3.0f, 3.0f, 3.0f, 4.0f, 4.0f, 4.0f, 5.0f, 5.0f, 5.0f)
 
-//            val charset = Charsets.UTF_8
-//            val byteArray = context.toString().toByteArray(charset)
-
             val inputVal = myList
             val byteBuffer = ByteBuffer.allocateDirect(4 * 15)
             byteBuffer.order(ByteOrder.nativeOrder())
-
-//          ???
-
-//            tflite.run(inputVal, byteBuffer)
-//            byteBuffer.rewind()
-//
-//            var f:Float = byteBuffer.float
-//
-//            bindingClass.textView.text = f.toString()
-
-
 
 
         }
